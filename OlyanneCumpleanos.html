@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños Mamor</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 90%;
+            width: 100%;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 90%;
+        }
+        .heart {
+            color: #ff6f61;
+            font-size: 2rem;
+            animation: beat 1s infinite;
+        }
+        .gif-container {
+            margin-top: 20px;
+        }
+        .gif-container img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes beat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        /* Estilos para pantallas más grandes (computadoras) */
+        @media (min-width: 768px) {
+            .container {
+                padding: 40px;
+                max-width: 600px;
+            }
+            h1 {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 1.2rem;
+                max-width: 80%;
+            }
+            .gif-container img {
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Feliz Cumpleaños Mamor <span class="heart">❤️</span></h1>
+        <p>
+            Tanto tiempo pasé buscando interés en personas que no darían algo por mí, tanto tuve que pasar para que tuvieras esta versión de mí, donde tus palabras suenan tan profesionales así como tu manera de actuar. No pido lujos, no pido caprichos, ya que tú misma dices: "Ya uno sabe que hacer, ya estamos grandes para esas cosas". Somos jóvenes y hay que vivir esto como si fuera la última vez que nos veamos. Todos los días me levantaré y daré mi mejor versión contigo, ya que contigo me siento feliz y estoy completo.
+            <br><br>
+            Te amo y te amaré, hasta que Dios me pare.
+        </p>
+        <!-- Espacio para el GIF -->
+        <div class="gif-container">
+            <!-- Reemplaza la siguiente línea con tu GIF -->
+            <img src="https://media4.giphy.com/media/3CCXHZWV6F6O9VQ7FL/giphy.gif?cid=6c09b9526rotw12lj636d7iwbz5p1718a9zd1d4q5np7789m&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" alt="GIF de ternurín">
+        </div>
+
+        
+        <div class="audio-container" style="margin-top: 20px;">
+            <audio controls autoplay loop>
+    
+                <source src="https://youtu.be/R5cbxTPZNL0?feature=shared" type="audio/mpeg">
+                
+            </audio>
+        </div>
+    </div>
+</body>
+</html>
